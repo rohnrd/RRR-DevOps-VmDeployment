@@ -54,8 +54,8 @@ resource "azurerm_public_ip" "pip" {
   name                = "${var.name_prefix}-pip-${count.index + 1}"
   resource_group_name = local.resource_group_name
   location            = local.resource_group_loc
-  allocation_method   = "Dynamic"
-  sku                 = "Basic"
+  allocation_method   = "Static"
+  sku                 = "Standard"
 }
 
 resource "azurerm_network_interface" "nic" {

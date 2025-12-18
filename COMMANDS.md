@@ -4,7 +4,7 @@
 
 
 ```powershell
-cd C:\Users\rajamohanrajendran\Documents\GitRepo\Vm
+cd C:\Users\rajamohanrajendran\Documents\GitRepo\Vm\RRR-DevOps-VmDeployment\dev-environment\
 setx ARM_CLIENT_ID     "2b15a721-3080-48a9-898d-fef9fb1f17a0"
 setx ARM_CLIENT_SECRET "Itb8Q~2G4z1X2Y_sTIPchVzMq8QlSJLpEokJ0b~E"
 setx ARM_TENANT_ID     "1ac9b81f-b616-4cce-9322-e7e448475bd3"

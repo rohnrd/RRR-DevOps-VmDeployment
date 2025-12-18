@@ -1,0 +1,21 @@
+{
+  "general": {
+    "name_prefix": "devvm",
+    "location": "East US",
+    "admin_username": "azureuser",
+    "admin_password": "P@ssw0rd1234!",
+    "admin_ssh_key": "",
+    "use_existing_subnet": false,
+    "existing_subnet_id": "",
+    "use_existing_resource_group": false,
+    "existing_resource_group_name": "",
+    "create_public_ip": true,
+    "vms": [
+      {
+        "name": "rrr-dummy-vm1",
+        "os_type": "windows",
+        "vm_size": "Standard_E2s_v3"
+      }
+    ]
+  }     
+}
